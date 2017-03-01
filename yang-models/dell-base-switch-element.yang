@@ -412,6 +412,10 @@ container switching-entities {
         type uint32;
         description "Time interval in seconds at which the counters will be read from NPU";
     }
+    leaf switch-shell-enable{
+        type uint32;
+        description "Enable and run switch's SAI diagnostic shell";
+    }
 
   }
 }
